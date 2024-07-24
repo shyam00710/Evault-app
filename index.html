@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simple DApp</h1>
+    <div id="content">
+        <button id="connectButton">Connect to MetaMask</button>
+        <form id="dataForm">
+            <label for="dataInput">Enter data:</label>
+            <input type="text" id="dataInput" required>
+            <button type="submit">Store Data</button>
+        </form>
+        <p id="status"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
